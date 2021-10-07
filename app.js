@@ -16,13 +16,3 @@ function calculateAge(){
     }
 
 }
-
-// let element = document.getElementById("xyz");
-// //	Event Listener
-// element.addEventListener("click", myFunction);
-
-// // Call Function On Click
-// function myFunction() {
-//     alert("Hello World!");
-// }
-
