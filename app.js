@@ -9,10 +9,13 @@ function calculateAge(){
     const age =Number (ageUser.value); 
     console.log(age)
     if(age >=18){
-       message.textContent = `Sr(a) ${nameUser.value} usted SI puede votar`;
+       message.textContent = `${nameUser.value} SI puede votar`;
+    }
+    else if (age<0){
+        message.textContent = `Ingrese valores válidos`;
     }
     else {
-        message.textContent = `Sr(a) ${nameUser.value} usted NO puede votar`;
+        message.textContent = `${nameUser.value} NO puede votar`;
     }
 
 }
